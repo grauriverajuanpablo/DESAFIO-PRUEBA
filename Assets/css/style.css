@@ -1,0 +1,220 @@
+
+@charset "UTF-8";
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.25em;
+    font-weight: bold;
+}
+.fondo-lila{
+    background-color: #591647;
+}
+.hero{
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    font-family: 'Oswald', sans-serif;
+    filter: hue-rotate(160deg);
+}
+.padding-top{
+    padding-top: 100%;
+}
+.img-exp{
+    width:100%;
+    max-width: 200px;
+    filter: hue-rotate(180deg);   
+}
+.contenedor-circulo {
+  width: 150px; 
+  height: 150px;
+  background-color: #1a0202; 
+  border-radius: 30%;
+  overflow: hidden; 
+  position: relative;
+}
+
+.contenedor-circulo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 10%; 
+}
+/* habilidades*/
+.habilidades {
+  background-color: hwb(315 36% 58%);
+  color: black;
+  padding: 50px 20px;
+}
+.habilidades .contenido-seccion {
+  margin: auto;
+}
+.habilidades h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+}
+.habilidades .fila {
+  display: flex;
+}
+.habilidades .fila .col {
+  width: 50%;
+  padding: 0 20px;
+}
+.habilidades .fila .col h3 {
+  font-size: 28px;
+  font-family: "Righteous";
+  margin-bottom: 25px;
+}
+.habilidades .habilidad > span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+.habilidades .habilidad .barra-habilidad {
+  height: 8px;
+  width: 80%;
+  background-color: hsl(0, 0%, 4%);
+  position: relative;
+  margin-bottom: 30px;
+}
+.habilidades .habilidad .progreso {
+  background-color: #0e0c0c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+}
+.habilidades .habilidad .barra-habilidad span {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #d59bc8;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  top: -17px;
+  right: -15px;
+  font-size: 14px;
+}
+
+
+/**/
+.habilidades .habilidad .comunicacion {
+  width: 0%;
+  animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.habilidades .habilidad .creatividad {
+  width: 0%;
+  animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.habilidades .habilidad .flexibilidad {
+  width: 0%;
+  animation: 2s flexibilidad forwards;
+}
+@keyframes flexibilidad {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.habilidades .habilidad .trabajoenequipo {
+  width: 0%;
+  animation: 2s trabajoenequipo forwards;
+}
+@keyframes trabajoenequipo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%
+  }
+}
+iframe {
+    width: 100%;
+    height: 775px;
+}
+i, i:hover{
+    color: rgb(12, 0, 13);
+}
+@media only screen and (min-width:500px){
+    .padding-top{
+        padding-top: 20%;
+    }
+}
+
+ .img-exp{
+    width:150%;
+    max-width: 300px;
+    filter: hue-rotate(350deg);
+}
+.carousel-indicators{
+    top: 100%;
+}
+.carousel-indicators li{
+    background-color: #0f034e80;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators li.active{
+    background-color: #200325;
+
+
+}
+
+
+.trabajos, footer{
+    background-color: #e2afd4;
+}
+.trabajos h2{
+    color: black;
+}
+footer{
+    color: hsl(0, 0%, 5%);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.textwall-blanco:after {
+    display: block;
+    text-align: center;
+    height: 2px;
+    margin: 3% 45% 0;
+    background: rgb(87, 20, 75);
+}
+a.card,
+a.card:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+iframe {
+    width: 50%;
+    height: 200px;
+}
+i, i:hover{
+    color: rgb(226, 111, 184);
+}
